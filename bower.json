@@ -8,6 +8,7 @@
   "main": [
     "tinymce.min.js",
     "content.min.css",
+    "lang/pt_BR.js"
     "angular-ui-tinymce.js"
   ],
   "keywords": [
