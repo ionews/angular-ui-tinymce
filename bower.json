@@ -1,12 +1,15 @@
 {
   "name": "angular-ui-tinymce",
   "version": "0.0.1",
-  "homepage": "https://git.ionews.com.br/ionews/angular-ui-tinymce",
   "authors": [
     "Frederico Nantes <fnantes@ionews.com.br>"
   ],
   "description": "angular-ui tinymce with working setup function",
-  "main": ["tinymce.min.js", "angular-ui-tinymce.js", "content.min.css"],
+  "main": [
+    "tinymce.min.js",
+    "content.min.css",
+    "angular-ui-tinymce.js"
+  ],
   "keywords": [
     "editor",
     "wysiwyg",
@@ -25,5 +28,6 @@
   ],
   "dependencies": {
     "angular": "~1.x",
+    "jquery": ">= 1.9.1"
   }
 }
