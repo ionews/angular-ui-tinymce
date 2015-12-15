@@ -7,8 +7,8 @@
   "description": "angular-ui tinymce with working setup function",
   "main": [
     "tinymce.min.js",
-    "content.min.css",
-    "lang/pt_BR.js"
+    "skins/light/content.min.css",
+    "skins/light/skin.min.css",
     "angular-ui-tinymce.js"
   ],
   "keywords": [

@@ -4,7 +4,10 @@
 angular.module('ui.tinymce', [])
   .value('uiTinymceConfig', {})
   .directive('uiTinymce', ['uiTinymceConfig', function (uiTinymceConfig) {
-    defaultConfig   = { skin_url: '../../content.min.css', language: 'pt_BR' }
+    defaultConfig   = {
+      menu: { },
+      skin: 'light',
+    }
     uiTinymceConfig = uiTinymceConfig || {};
 
     angular.extend(uiTinymceConfig, defaultConfig);
